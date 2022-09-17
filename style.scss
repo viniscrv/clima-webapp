@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(5,26,52,1);
+    background-image: url(img/bg4.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 1.3em;
+    font-family: 'Inter';
+    .conteudo {
+        background: linear-gradient(9deg,rgb(140, 187, 229)  0%, rgba(5,26,52,1) 100%, rgba(90,68,128,1) 100%, rgba(161,0,33,1) 100%);
+        padding: 2em;
+        border-radius: 8%;
+        header {
+            input {
+                display: block;
+                width: 80%;
+                margin: 0 auto;
+                padding: 1em;
+                background-color: rgba(244, 244, 244, 0.669);
+                border: none;
+                border-radius: 4px;
+                &::placeholder {
+                    color: rgb(64, 64, 64);
+                    font-size: 1.1em;
+                }
+            }
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .localizacao {
+                margin: 1em 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .cidade {
+                    margin: .3em 0;
+                    font-size: 1.7em;
+                }
+                .data {
+                    font-size: .8em;
+                    color: rgb(156, 156, 156);
+                }
+            }
+            .tempo {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .temperatura {
+                    font-size: 2.5em;
+                }
+                .clima {
+                    font-size: 1.2em;
+                    margin: .2em 0;
+                }
+                .maximo-minima {
+                    font-size: .9em;
+                }
+            }
+        }
+    }
+}
