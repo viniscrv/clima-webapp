@@ -21,22 +21,6 @@ body {
         background: linear-gradient(9deg,rgb(140, 187, 229)  0%, rgba(5,26,52,1) 100%, rgba(90,68,128,1) 100%, rgba(161,0,33,1) 100%);
         padding: 2em;
         border-radius: 8%;
-        header {
-            input {
-                display: block;
-                width: 80%;
-                margin: 0 auto;
-                padding: 1em 2.5em;
-                background-color: rgba(244, 244, 244, 0.669);
-                border: none;
-                border-radius: 4px;
-                font-size: .65em;
-                &::placeholder {
-                    color: rgb(64, 64, 64);
-                    font-size: 1.1em;
-                }
-            }
-        }
         main {
             display: flex;
             flex-direction: column;
