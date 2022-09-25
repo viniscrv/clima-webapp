@@ -45,13 +45,13 @@ function data(){
     dia = dataAtual.getDate();
     diaSemana = dataAtual.getDay();
     switch(diaSemana) {
+        case 0 : diaSemana = 'Domingo'; break;
         case 1 : diaSemana = 'Segunda'; break;
         case 2 : diaSemana = 'Terça'; break;
         case 3 : diaSemana = 'Quarta'; break;
         case 4 : diaSemana = 'Quinta'; break;
         case 5 : diaSemana = 'Sexta'; break;
         case 6 : diaSemana = 'Sábado'; break;
-        case 7 : diaSemana = 'Domingo'; break;
     }
     mes = (dataAtual.getMonth())+1;
     switch(mes) {
